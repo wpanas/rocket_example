@@ -844,14 +844,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "rocket-example"
-version = "0.1.0"
-dependencies = [
- "rocket",
- "serde",
-]
-
-[[package]]
 name = "rocket_codegen"
 version = "0.5.0-rc.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -865,6 +857,14 @@ dependencies = [
  "rocket_http",
  "syn",
  "unicode-xid",
+]
+
+[[package]]
+name = "rocket_example"
+version = "0.1.0"
+dependencies = [
+ "rocket",
+ "serde",
 ]
 
 [[package]]
